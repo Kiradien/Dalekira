@@ -1,9 +1,10 @@
 # Dalekira Discord Bot
 
-This code isn't plug & play; several key tokens are not shared. The code is in the 'last dev state' after being inactive for over a year, but several custom modules should still be workable, including those modded from Scryfall.
-The Epub Component may require tweaks and serverside code - I will add if requested.
+## 🛠️ Project Status & Configuration Note
 
-An event-driven middleware application built with Node.js designed to integrate upstream streaming platforms, database layers, and content APIs with the Discord chat ecosystem. This project serves as an orchestration hub, managing real-time data ingestion, token validation, and decoupled environment configurations.
+*   **Development Snapshot:** This repository represents the codebase in its last active development state. It is not plug-and-play out of the box, as all production API keys, security tokens, and backend configurations are intentionally withheld for security compliance [1].
+*   **Module Portability:** The core integration modules—including the customized Scryfall API data wrappers—remain modular and functional.
+*   **Epub Component:** The e-pub compilation engine requires specific server-side environment dependencies and tweaks. The server-side integration logic can be provided upon request.
 
 ## 🚀 Architectural Highlights
 
